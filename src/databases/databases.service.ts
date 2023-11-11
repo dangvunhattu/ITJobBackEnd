@@ -74,7 +74,7 @@ export class DatabasesService implements OnModuleInit {
                     },
                     {
                         name: "I'm Loc",
-                        email: 'nyaakuromisu@gmail.com',
+                        email: 'phananhloc03102001@gmail.com',
                         password: this.userService.getHashPassword(
                             this.configService.get<string>('INIT_PASSWORD'),
                         ),
